@@ -23,6 +23,7 @@ jobs:
 # Orchestrate jobs using workflows
 # See: https://circleci.com/docs/configuration-reference/#workflows
 workflows:
+  jobs:
     build-and-test:
       - steps
       - run
