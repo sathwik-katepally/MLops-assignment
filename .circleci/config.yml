@@ -18,7 +18,7 @@ jobs:
     docker:
       - image: "circleci/python:3.9.9"
     steps:
-      -checkout
+      - checkout
       - run: python3 tests.py
 
 # Orchestrate jobs using workflows
