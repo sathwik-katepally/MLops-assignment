@@ -15,3 +15,13 @@ Steps to docker containerization:
    docker push IMAGE_ID REPOSITORY: TAG
 7. Docker image has been succesfully pushed to Docker Hub
    
+Steps to deploy Docker image on AWS EC2:
+
+1. Create an EC2 instance with Ubuntu OS.
+2. Connect to the instance using EC2 Instance Connect.
+3. Run the commands found on https://docs.docker.com/engine/install/ubuntu/ to install docker on EC2 instance.
+4. Login as root user, search the docker hub for the previously created image using the command:
+    docker search sathwikk17/mlops
+5. Pull the docker image using the command:
+    docker pull sathwikk17/mlops:mlops
+6. Result is displayed.
