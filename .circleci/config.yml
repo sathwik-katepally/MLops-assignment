@@ -6,23 +6,20 @@ version: 2.1
 # See: https://circleci.com/docs/configuration-reference/#jobs
 jobs:
   build:
-    working_directory: ~/circleci/python
+    working_directory: ~/jupyter/datascience-notebook
     docker:
-      - image: "circleci/python:3.9.9"
+      - image: "jupyter/datascience-notebook:latest"
     steps:
       - checkout
       - run: python3 recommend.py
 
   test:
-    working_directory: ~/circleci/python
+    working_directory: ~/jupyter/datascience-notebook
     docker:
-      - image: "circleci/python:3.9.9"
+      - image: "jupyter/datascience-notebook:latest"
     steps:
       - checkout
       - run: python3 tests.py
-
-# Orchestrate jobs using workflows
-# See: https://circleci.com/docs/configuration-reference/#workflows
 workflows:
   build_and_test:
     jobs:
