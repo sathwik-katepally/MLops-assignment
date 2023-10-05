@@ -1,4 +1,13 @@
 # MLops-assignment
+
+This project consists of 6 steps:
+1. Setting up and using Github for version control.
+2. Training an ML model for movie recommendation.
+3. Dockerizing the ML model and pushing it to Docker Hub.
+4. Deploying the dockerized ML model on an EC2 instance.
+5. Setting up CircleCI for automated unit testing.
+6. 
+
 Steps to docker containerization:
 
 1. Create a folder, place the ML model in it.
