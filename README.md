@@ -21,7 +21,9 @@ Steps to docker containerization:
    docker tag IMAGE_ID REPOSITORY: TAG
     #Push the image
    docker push IMAGE_ID REPOSITORY: TAG
-7. Docker image has been succesfully pushed to Docker Hub
+7. Docker image has been succesfully pushed to Docker Hub.
+
+   Link to Docker image on Docker Hub : https://hub.docker.com/layers/sathwikk17/mlops/mlops/images/sha256-7725f39c6f3b7d91cb7c290813ffd142e23cd70f43ddf5216470fb153f711dda?context=repo
    
 Steps to deploy Docker image on AWS EC2:
 
