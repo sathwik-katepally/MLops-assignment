@@ -30,9 +30,9 @@ Steps to deploy Docker image on AWS EC2:
 1. Create an EC2 instance with Ubuntu OS.
 2. Connect to the instance using EC2 Instance Connect.
 3. Run the commands found on https://docs.docker.com/engine/install/ubuntu/ to install docker on EC2 instance.
-4. Login as root user, search the docker hub for the previously created image using the command:
-    docker search sathwikk17/mlops
-5. Pull the docker image using the command:
+4. Login as root user, search the docker hub for the previously created image using the command:  
+    docker search sathwikk17/mlops:mlops  
+5. Pull the docker image using the command:  
     docker pull sathwikk17/mlops:mlops
 6. Result is displayed.
 <img width="726" alt="Screenshot 2023-10-05 at 12 14 16 AM" src="https://github.com/sathwik-katepally/MLops-assignment/assets/59343619/65b1ac77-fdd8-4805-8bee-2847ce3c1301">
