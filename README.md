@@ -43,7 +43,7 @@ Steps to automate tests using CircleCI:
 1. Integrate CircleCI with Github and local machine (ssh keys).
 2. Connect github repository with CircleCI.
 3. Write test cases in a file named as tests.py
-4. Edit config.yml file accordingly, to automate the workflow
+4. Edit config.yml file in .circleci folder accordingly, to automate the workflow
 5. Unit testing has now been automated successfully.
 
 
