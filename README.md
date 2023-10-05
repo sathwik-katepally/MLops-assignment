@@ -11,7 +11,7 @@ Steps to docker containerization:
 
 1. Create a folder, place the ML model in it.
 2. Write a Dockerfile to install dependencies, and run the python file.
-3. Run the following commands one by one :
+3. Run the following commands one by one :  
     docker build -t mlops  
     docker run mlops  
 5. Docker image has been created.
